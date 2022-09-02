@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T08:36:26.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="4qLRRUxjI54cx5EjNLtZ" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T08:40:26.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="xNzE08xdGPqQyJvwLFYt" version="20.2.8" type="github">
   <diagram id="U8bzOZHJN6MP3SesMmv5" name="第 1 页">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,24 +64,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y5iyKHZg7AsotlNypuTz-5" value="云医服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="683" y="70" width="314" height="1250" as="geometry" />
+          <mxGeometry x="755" y="70" width="170" height="1250" as="geometry" />
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--9" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;width=52;height=29;" vertex="1" parent="y5iyKHZg7AsotlNypuTz-5">
           <mxGeometry x="-650" y="511" width="964" height="569" as="geometry" />
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="y5iyKHZg7AsotlNypuTz-5">
-          <mxGeometry x="-365" y="560" width="10" height="140" as="geometry" />
+          <mxGeometry x="-435" y="560" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--26" value="[微信号已绑定平台用户]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y5iyKHZg7AsotlNypuTz-5">
           <mxGeometry x="-638" y="550" width="178" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="y5iyKHZg7AsotlNypuTz-5">
-          <mxGeometry x="154" y="560" width="10" height="140" as="geometry" />
+          <mxGeometry x="81" y="560" width="10" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="W4yqz1pdLCZUKm_UDTd--28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=-0.4;exitY=0.614;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-5" source="W4yqz1pdLCZUKm_UDTd--27">
+        <mxCell id="W4yqz1pdLCZUKm_UDTd--28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=-0.4;exitY=0.614;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="104.5" y="646" as="sourcePoint" />
-            <mxPoint x="-351" y="643" as="targetPoint" />
+            <mxPoint x="80" y="645.96" as="sourcePoint" />
+            <mxPoint x="-421" y="643" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -92,10 +92,10 @@
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--30" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-373" y="642" as="sourcePoint" />
-            <mxPoint x="-528" y="642" as="targetPoint" />
+            <mxPoint x="-443" y="642" as="sourcePoint" />
+            <mxPoint x="-598" y="642" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-468.5" y="642" />
+              <mxPoint x="-538.5" y="642" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -114,27 +114,27 @@
           <mxGeometry x="-638" y="750" width="178" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="y5iyKHZg7AsotlNypuTz-5">
-          <mxGeometry x="-535" y="820" width="10" height="200" as="geometry" />
+          <mxGeometry x="-605" y="820" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--42" value="绑定手机号操作" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-523" y="920" as="sourcePoint" />
-            <mxPoint x="-365" y="920" as="targetPoint" />
+            <mxPoint x="-593" y="920" as="sourcePoint" />
+            <mxPoint x="-435" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--43" value="携带临时凭证token调用对应的绑定账号接口" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-356" y="920" as="sourcePoint" />
-            <mxPoint x="147" y="920" as="targetPoint" />
+            <mxPoint x="-426" y="920" as="sourcePoint" />
+            <mxPoint x="77" y="920" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-226" y="920" />
+              <mxPoint x="-296" y="920" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="W4yqz1pdLCZUKm_UDTd--44" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=-0.4;exitY=0.614;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="146" y="982.96" as="sourcePoint" />
-            <mxPoint x="-355" y="980" as="targetPoint" />
+            <mxPoint x="76" y="982.96" as="sourcePoint" />
+            <mxPoint x="-425" y="980" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -214,7 +214,7 @@
         <mxCell id="W4yqz1pdLCZUKm_UDTd--8" value="携带code调用系统登录接口" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="329" y="660" as="sourcePoint" />
-            <mxPoint x="839" y="660" as="targetPoint" />
+            <mxPoint x="830" y="660" as="targetPoint" />
             <Array as="points">
               <mxPoint x="459" y="660" />
             </Array>
