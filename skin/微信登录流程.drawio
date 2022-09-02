@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T03:33:17.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="hOxJI43gnpNDrKandJog" version="20.2.8" type="github"><diagram id="U8bzOZHJN6MP3SesMmv5" name="第 1 页">jZNNb4MwDIZ/TY6V+OpajoWxVWonVeuknTNwIVMgUQiF7tcvKQaKqkqVONiP7TiOX4gfl927orL4EBlw4jlZR/xX4nlu4HnEfk526ckqDHqQK5Zh0gSO7A8QOkgblkE9S9RCcM3kHKaiqiDVM0aVEu087ST4vKukOdyBY0r5Pf1mmS56uvZWE98Cy4uhs/sS9pGSDsk4SV3QTLQ3yE+IHyshdG+VXQzcPt7wLn3d24PoeDEFlX6mgO+CxU7Qs9w3kKrfL+nsTgs85Ux5gwOTJCDRhoQuSZZkHZMo2hwOi+0Sh9CX4WXMPNKaTcn37AScVcaLJChWggZlIhzxYWJRWzANR0lTW9oazRhW6JIbzzWmWaOmpkSNPudU1uzn2tUxREHaqJqd4RPqXi2WikbbTvGoAgtxNlAauoeP5o6rMBoGYe6pLiYFC1a4PFSvO/jtpAXXQVbc6GAZIqSov3w8elqRMXBLgzup4Rq7+af85B8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-02T03:56:32.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="4bZg6gsHelO3FlZaMj-d" version="20.2.8" type="github">
+  <diagram id="U8bzOZHJN6MP3SesMmv5" name="第 1 页">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lK4-KoavpLuecrjTp0Kf-1" value="云医APP-H5" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="70" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-15" value="用户点击允许授权" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="lK4-KoavpLuecrjTp0Kf-1" target="y5iyKHZg7AsotlNypuTz-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-80" y="270" as="sourcePoint" />
+            <mxPoint x="49.5" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-2" value="云医APP-原生" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-11" value="点击微信&lt;br&gt;登录图标调用&lt;br&gt;原生登录方法" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-81" y="130" as="sourcePoint" />
+            <mxPoint x="48.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-3" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-9" value="打开APP进入&lt;br&gt;登录页面" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-3" target="lK4-KoavpLuecrjTp0Kf-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="130" as="sourcePoint" />
+            <mxPoint x="210" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-4" value="微信客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="70" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-12" value="调用微信SDK&lt;br&gt;拉起微信登录" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-80" y="130" as="sourcePoint" />
+            <mxPoint x="49.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-5" value="云医服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="70" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="y5iyKHZg7AsotlNypuTz-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-80" y="380" as="sourcePoint" />
+            <mxPoint x="-220" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-189.5" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-6" value="微信服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="y5iyKHZg7AsotlNypuTz-4" target="y5iyKHZg7AsotlNypuTz-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-14" value="进入微信授权登录页&lt;br&gt;等待用户授权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y5iyKHZg7AsotlNypuTz-13">
+          <mxGeometry x="0.2026" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-16" value="获取微信登录的临时票据code" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="390" as="sourcePoint" />
+            <mxPoint x="759.5" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="390" />
+              <mxPoint x="500" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="499.5" y="300" as="sourcePoint" />
+            <mxPoint x="109.5" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y5iyKHZg7AsotlNypuTz-18" value="进入微信授权登录页&lt;br&gt;等待用户授权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y5iyKHZg7AsotlNypuTz-17">
+          <mxGeometry x="0.2026" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
